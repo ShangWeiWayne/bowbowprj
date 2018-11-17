@@ -1,0 +1,30 @@
+
+.navbar {
+    height: 9vh;
+    width: 100vw;
+}
+
+.headerLogo {
+    height:9vh;
+}
+.icon_size{
+    height:1.8em;
+}
+.google-font-header {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 1.7em;
+}
+
+.toLeft {
+    left: 16px;
+    position: absolute;
+}
+
+.nav-top-color {
+    background-color: #eeefef;
+}
+
+.zindex {
+    z-index: 4030;
+}

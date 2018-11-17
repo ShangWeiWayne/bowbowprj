@@ -1,0 +1,67 @@
+<div class="custom-bottom-navbar mdl-shadow--4dp">
+  <div class="container-fluid">
+    <nav>
+      <a 
+      [attr.data-icon]="1" 
+      (click) ="ActiveStyle($event)">
+        <span 
+          [ngClass]="{'bnav_icon_outline' : bnav_icon_1}"
+          class="fas fa-warehouse icon-inactive-1 icon-size custom-fa">
+        </span>
+        <span 
+          [ngClass]="{'bnav_icon' : bnav_icon_1}"
+          class="bottom-navbar-text icon-inactive-1 ">
+          倉庫
+        </span>
+      </a>
+      <a 
+      [attr.data-icon]="2" 
+      (click) ="ActiveStyle($event)">
+        <span 
+          [ngClass]="{'bnav_icon_outline' : bnav_icon_2}"
+          class="fa fa-toolbox icon-size custom-fa"></span>
+        <span 
+          [ngClass]="{'bnav_icon' : bnav_icon_2}"
+          class="bottom-navbar-text ">
+          工具箱
+        </span>
+      </a>
+      <a 
+      [attr.data-icon]="3" 
+      (click) ="ActiveStyle($event)">
+        <span 
+          [ngClass]="{'bnav_icon_outline' : bnav_icon_3}"
+          class="fas fa-file-invoice icon-size custom-fa">
+        </span>
+        <span 
+          [ngClass]="{'bnav_icon' : bnav_icon_3}"
+          class="bottom-navbar-text icon-active">
+          版型庫
+        </span>
+      </a>
+      <a 
+      [attr.data-icon]="4" 
+      (click) ="ActiveStyle($event)">
+        <span class="fas fa-print icon-size"
+          [ngClass]="{'bnav_icon' : bnav_icon_4}">
+        </span>
+        <span class="bottom-navbar-text"
+          [ngClass]="{'bnav_icon' : bnav_icon_4}">
+          送印
+        </span>
+      </a>
+      <a 
+      [attr.data-icon]="5" 
+      (click) ="ActiveStyle($event)">
+        <span class="far fa-save icon-size"
+          [ngClass]="{'bnav_icon' : bnav_icon_5}">
+        </span>
+        <span class="bottom-navbar-text "
+          [ngClass]="{'bnav_icon' : bnav_icon_5}">
+          儲存
+        </span>
+      </a>
+    </nav>
+  </div>
+</div>
+
